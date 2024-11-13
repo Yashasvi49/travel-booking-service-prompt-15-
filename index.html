@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="left">
+          <img src="./logo-removebg-preview.png" alt="" />
+        </div>
+        <div class="right">
+          <h1>Home</h1>
+          <h1>Stores</h1>
+          <h1>Gallery</h1>
+          <h1>About</h1>
+          <h1>Contacts</h1>
+        </div>
+      </nav>
+      <section>
+        <div class="form">
+          <div class="form-text">
+            <h1>Book Now</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+              similique.
+            </p>
+          </div>
+          <div class="main-form">
+            <form action="index.php" method="get">
+                <div>
+                    <span>Your full name ?</span>
+                    <input type="text" name="name" id="name" placeholder="write your name here..." required>
+                </div>
+                <div>
+                    <span>Your email address ?</span>
+                    <input type="email" name="name" id="name" placeholder="Write youe email here..." required>
+                </div>
+                <div>
+                    <span>How many people?</span>
+                   <select name="people" id="people" required>
+                   <option value=""><---People---></option>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                  </select>
+                </div>
+                <div>
+                    <span>What time?</span>
+                    <input type="text" name="time" id="time" placeholder="time" required>
+                </div>
+                <div>
+                    <span>What is the date ?</span>
+                    <input type="date" name="date" id="date" placeholder="date" required>
+                </div>
+                <div>
+                    <span>Your phone number ?</span>
+                    <input type="number" name="number" id="number" placeholder="Write your number here...">
+                </div>
+                <div id="submit">
+                <input type="submit" value="submit"  id="submit">
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

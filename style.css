@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+main {
+    height: 120vh;
+    width: 100vw;
+/* position: fixed; */
+padding: 15px;
+font-family: montserrat;
+background-image: url("https://i.pinimg.com/564x/dd/52/69/dd5269af5bd503b01e5d09832899468a.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 3em;
+
+}
+
+nav .left img {
+    width: 4em;
+
+}
+nav {
+    height: 8%;
+    width: 100%;
+    /* background-color: rgb(87, 136, 179); */
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav .right {
+    display: flex;
+gap: 7rem;
+color: black;
+font-size: 12px;
+margin-right: 20px;
+}
+nav .right h1 {
+font-weight: 350;
+
+}
+.form {
+    height: 43em;
+    width: 60em;
+    background-color: aliceblue;
+}
+.form-text {
+ text-align: center;
+ margin: 40px 10px;
+ 
+ 
+} 
+.main-form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+    color: 
+    navy;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10em;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.main-form div input {
+    width: 200%;
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    border: 1px solid navy;
+    font-size: 15px;
+    color: #757575;
+    outline: none;
+    padding: 5px 0 5px 10px;
+    margin-top: 10px;
+    
+    
+    
+}
+.main-form div select{
+    width: 200%;
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    border: 1px solid navy;
+    font-size: 12px;
+    color: #fff;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div span{
+    width: 100%;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 19px;
+}
+
+#submit{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+
+}
+#submit input{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 200px;
+    background-color: yellow ;
+    color: black ;
+    transition: all .3s;
+    margin: auto;
+    margin-top: 3em;
+    padding: 1.2%;
+    border-radius: 25px;
+
+}
+#submit input:hover{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 200px;
+    background-color: black ;
+    color: #fff ;
+}
+#submit input:active{
+    font-size: 19x;
+    background-color: rgb(46, 20, 5) ;
+    color: #fff ;
+}
+
+
+@media screen and (max-width:710px) {
+    .main-form{
+        text-align: center;
+    }
+}
+
+
